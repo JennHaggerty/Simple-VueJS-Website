@@ -1,0 +1,172 @@
+:root {
+  --darkest: #222;
+  --dark: #343a40;
+  --light: lightgray;
+  --lightest: white;
+  --accent: yellowgreen;
+}
+
+body{
+  font-family: 'Space Mono', monospace;
+  background-color: var(--darkest);
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+a, a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+/* Navbar */
+.navbar-brand {
+  text-transform: uppercase;
+  text-decoration: solid;
+}
+.brand {
+  font-size: 1.25em;
+}
+#contact {
+  background-color: var(--dark);
+}
+#contact a {
+  color: var(--light);
+}
+#contact a:hover {
+  color: var(--accent);
+}
+.navbar-toggler {
+  font-size: small;
+  background-color: var(--accent);
+}
+/* END Navbar */
+/* Information */
+div#information {
+  margin-top: 6em;
+}
+.information-jumbotron {
+  color: var(--light);
+}
+.btn-resume {
+  width: 100%;
+  padding: 1.25em;
+  text-transform: uppercase;
+  background-color: var(--accent);
+}
+.btn-resume:hover {
+  font-weight: bold;
+}
+/* END Information */
+/* Portfolio */
+.portfolio-item {
+  padding: .5em;
+}
+.portfolio-item a {
+  text-align: right;
+  color: var(--light);
+}
+.portfolio-item a:hover {
+  text-decoration: none;
+  font-weight: 700!important;
+  color: var(--dark);
+}
+.portfolio-content {
+  height: 100%;
+  padding: 4em;
+  background-color: var(--dark);
+}
+.portfolio-content:hover {
+  background-color: var(--accent);
+}
+.portfolio-content h3 {
+  text-transform: uppercase;
+  font-size: 1.55em;
+}
+.portfolio-content:hover h3 {
+  font-weight: bold;
+}
+/* END Portfolio */
+/* Modal */
+.modal-header {
+  text-transform: uppercase;
+  background-color: var(--dark);
+  color: var(--light);
+}
+.modal-title {
+  font-size: 1.25em;
+}
+.modal-footer {
+  background-color: var(--dark);
+}
+.modal-footer .row {
+  justify-content: center;
+}
+.modal-close {
+  color: var(--light);
+}
+.btn-client-link {
+  border-radius: .25rem;
+  background-color: var(--accent);
+}
+.btn-client-link:hover {
+  font-weight: bold;
+}
+/* END Modal */
+/* Team */
+.team-row {
+  background-color: var(--dark);
+  justify-content: center;
+}
+.team-card {
+  background-color: var(--lightest);
+  margin: 1em;
+  width: 22%;
+}
+.team-card-content {
+  margin: 1em;
+  padding: 1em;
+}
+.team-card-header {
+  text-align: center;
+}
+.team-card-header span {
+  color: var(--dark);
+}
+.item-intro {
+  text-transform: uppercase;
+  color: var(--dark);
+  font-weight: bold;
+}
+.team-role {
+  font-weight: bold;
+}
+.team-socials {
+  margin: 1em;
+  justify-content: center;
+}
+.team-socials a {
+  color: var(--light);
+  background-color: var(--dark);
+}
+.team-socials a:hover {
+  color: var(--dark);
+  background-color: var(--accent);
+}
+.team-hobbies {
+  text-transform: lowercase;
+}
+.social-icon {
+  font-size: 1.5em;
+}
+.social-link {
+  text-align: center;
+  margin: .25em;
+  border-radius: 50%;
+}
+/* END Team */
+/* General */
+.section-heading {
+  color: var(--light);
+  margin-top: 1.5em;
+}
+.hidden {
+  display: none;
+}
