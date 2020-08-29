@@ -117,8 +117,8 @@ div#information {
 }
 .team-card {
   background-color: var(--lightest);
-  margin: 1em;
-  width: 22%;
+  margin: 1rem;
+  width: 22rem;
 }
 .team-card-content {
   margin: 1em;
