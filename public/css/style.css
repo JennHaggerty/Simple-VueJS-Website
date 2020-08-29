@@ -46,12 +46,14 @@ div#information {
   color: var(--light);
 }
 .btn-resume {
+  color: var(--darkest);
   width: 100%;
   padding: 1.25em;
   text-transform: uppercase;
   background-color: var(--accent);
 }
 .btn-resume:hover {
+  color: var(--darkest);
   font-weight: bold;
 }
 /* END Information */
@@ -123,6 +125,7 @@ div#information {
 .team-card-content {
   margin: 1em;
   padding: 1em;
+  color: var(--darkest);
 }
 .team-card-header {
   text-align: center;
