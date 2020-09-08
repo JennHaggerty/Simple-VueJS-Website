@@ -18,10 +18,9 @@ a, a:hover {
 }
 /* Navbar */
 .navbar-brand {
+  color: var(--light);
   text-transform: uppercase;
   text-decoration: solid;
-}
-.brand {
   font-size: 1.25em;
 }
 #contact {
@@ -128,6 +127,7 @@ div#information {
   color: var(--darkest);
 }
 .team-card-header {
+  display: block;
   text-align: center;
 }
 .team-card-header span {
